@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import  santa from './santa.jpg'
+import gifts from './gifts.jpg'
 import './App.css';
+import { Presents } from './Presents';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app '>
+      <div className="container">
+        <img src={ gifts } alt="foto" width="250px"/>
+      </div>
+
+      <div className="container">
+      <h1>- Regalos de Navidad -</h1>
+      </div>
+      <Presents/>
+      <div className="container">
+      <img  className="marginPicure" src={ santa } alt="foto" width="250px"/>
+      </div>
     </div>
   );
 }
