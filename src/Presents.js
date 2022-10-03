@@ -70,14 +70,8 @@ deleteItem(){
                 {this.state.presentsList.map((item, index)=>(
                
                 <li onClick={this.crossedWord} key={index}><img src={icon} width="35px" alt="icon"/> {item}
-                <div>
-                   <img src={done} width='26px' alt='del' onClick={()=>this.deleteOne(item,index)}  />
-                 </div>
-
-
-
-
-</li>
+                   <img src={done} width='30px' alt='del' onClick={()=>this.deleteOne(item,index)}  />
+                </li>
                 ))}
             </ul>
             <div className="container">
