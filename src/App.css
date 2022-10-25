@@ -17,7 +17,6 @@ body {
   margin-bottom: 20px;
 }
 .crossed {
-
   text-decoration: line-through 2px red;
   background-color: #f0f0f0;
 }
@@ -30,23 +29,23 @@ ul, li{
   font-size: 20px;
   text-align: center;
 }
+
 input{
   font-family: 'Poppins', sans-serif;
   flex: 1;
   padding: 10px;
-  
 }
 
 button{
   font-family: 'Poppins', sans-serif;
 }
+
 .container{
   display: flex;
   justify-content: center;
 }
 
 .add {
-
   background: #65aa06;
   margin-top: 15px;
 }
@@ -56,15 +55,13 @@ button{
   margin-bottom: 5px;
 }
 
-
-
 .btn {
-padding: 10px;
-border: none;
-width: 100%;
-color: white;
-font-size: 16px;
-font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .whiteBG{
