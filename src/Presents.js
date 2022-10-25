@@ -15,7 +15,7 @@ export class Presents extends Component{
 
     addItem(input){
         if (input===""){
-            alert("Añade una regalo")
+            alert("Añade un regalo")
         }
         else{
 
