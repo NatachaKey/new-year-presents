@@ -10,9 +10,7 @@ export class Presents extends Component{
     }
 
     onChangeEvent(e){
-        this.setState({userInput: e})
-        
-       
+        this.setState({userInput: e})  
     }
 
     addItem(input){
